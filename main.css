@@ -167,4 +167,9 @@ footer a:visited {
         letter-spacing: 0.2em;
         margin-right: -0.2em;
     }
+    .btn {
+        box-sizing: border-box;
+        padding: 2.2em 3.2em;
+        bottom: 350px;
+    }
 }
