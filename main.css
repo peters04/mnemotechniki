@@ -44,18 +44,19 @@ body {
 }
 
 .btn {
+    display: block;
+    padding: 1.4em 3.2em;
+    margin: 0 0.1em 2em 0;
+    border: 0;
+    border-radius: 0.7em;
     box-sizing: border-box;
-    margin: 0;
-    padding: 1.2em 2.2em;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: #f4f4f4;
     text-decoration: none;
-    border-radius: 10px;
-    z-index: 99;
+    font-weight: 700;
+    color: #f4f4f4;
+    text-align: center;
     background-color: #758184;
-    position: absolute;
-    bottom: 200px;
+    text-transform: uppercase;
+    z-index: 99;
 }
 
 /* Main */
@@ -68,6 +69,7 @@ body {
     margin-right: -0.8em;
     color: #f4f4f4;
     z-index: 99;
+    margin-bottom: 100px;
 }
 
 main {
@@ -166,10 +168,5 @@ footer a:visited {
         font-size: 2.4em;
         letter-spacing: 0.2em;
         margin-right: -0.2em;
-    }
-    .btn {
-        box-sizing: border-box;
-        padding: 2.2em 3.2em;
-        bottom: 350px;
     }
 }
