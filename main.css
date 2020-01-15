@@ -55,13 +55,14 @@ body {
     z-index: 99;
     background-color: #758184;
     position: absolute;
-    bottom: 50px;
+    bottom: 200px;
 }
 
 /* Main */
 .main-header h1 {
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
     font-size: 5em;
     letter-spacing: 0.8em;
     margin-right: -0.8em;
