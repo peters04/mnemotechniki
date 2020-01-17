@@ -93,7 +93,7 @@ section {
 
 section img {
     width: 100%;
-    box-shadow: 5px 5px 10px rgb(104, 104, 104);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 /* Footer */
